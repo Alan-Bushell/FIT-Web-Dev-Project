@@ -5,6 +5,11 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+/* Default text center class*/
+.text-center {
+    text-align: center;
+}
+
 /* Navbar container */
 .topnav {
     display: flex;
@@ -72,4 +77,28 @@ body, html {
     background-position: center;
     border-radius: 8px;
     border: solid green 1px;
+}
+
+.visit-section {
+    min-height: 700px;
+    border: solid 1px orangered;
+}
+
+.why-1, .why-2 {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.text-1, .image-1, .text-2, .image-2 {
+    border: solid 1px blue;
+    height: 100%;
+    width: 35%;
+}
+
+.paralax {
+    height: 100px;
+    width: 100%;
+    background-color: #13366e;
 }
