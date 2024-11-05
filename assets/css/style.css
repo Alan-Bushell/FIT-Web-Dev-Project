@@ -1,0 +1,75 @@
+/* Reset default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13366e;
+    padding: 10px 20px;
+}
+
+/* Logo */
+.topnav .logo {
+    margin-right: auto;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Links container */
+.topnav .nav-links {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    justify-content: center;
+}
+
+/* Navbar links */
+.topnav .nav-links a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Active link */
+.topnav .nav-links a.active {
+    background-color: #6E4B13;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.topnav .nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 620px;
+    border: solid red 1px;
+    background-color: #13366e;
+}
+
+/* Hero image styles */
+.hero-image {
+    width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
+    min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
+    background-image: url('https://focus.independent.ie/thumbor/_Ia-xVFTA7Pxak-mwN3bY4a-K7o=/0x172:1500x1001/960x640/prod-mh-ireland/422361ea-c1d9-11ed-a34d-0210609a3fe2.jpg'); /* Placeholder */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: solid green 1px;
+}
