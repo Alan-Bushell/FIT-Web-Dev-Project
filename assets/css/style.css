@@ -150,3 +150,36 @@ body, html {
     text-align: center;
     align-content: center;
 }
+
+/*footer*/
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #13366e;
+    color: white;
+}
+
+.foot-row {
+    border: solid red 1px;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foot-col-left, .foot-col-center, .foot-col-right {
+    border: solid green 1px;
+    height: 100%;
+    width: 30%;
+}
+
+.foot-col-left {
+    align-content: center;
+}
+
+.foot-col-center {
+    align-content: end;
+    text-align: center;
+}
