@@ -240,3 +240,63 @@ footer {
 .fa-google:hover {
     color: #0266C8 ;
 }
+
+/* To do Page */
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 620px;
+    border: solid red 1px;
+    background-color: #ffffff;
+}
+
+.todo-1, .todo-2 {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.td-text-1, .td-image-1, .td-text-2, .td-image-2 {
+    height: 350px;
+    width: 50%;
+}
+
+.td-text-1, .td-text-2 {
+    background-color: #13366e;
+}
+
+.todo-container {
+    height: 200px;
+    border: solid green 1px;
+    margin-bottom: 30px;
+}
+
+.td-item-row {
+    border: solid orange 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.todo-item {
+    border: solid 1px brown;
+    height: 45%;
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.td-card-title {
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.td-card-desc {
+    margin-left: 7.5%;
+}
