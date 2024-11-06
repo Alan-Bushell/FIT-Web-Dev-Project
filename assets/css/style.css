@@ -85,7 +85,7 @@ body, html {
 }
 
 .why-1, .why-2 {
-    height: 300px;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     margin: 30px;
@@ -93,12 +93,60 @@ body, html {
 
 .text-1, .image-1, .text-2, .image-2 {
     border: solid 1px blue;
-    height: 100%;
-    width: 35%;
+    height: 350px;
+    width: 450px;
 }
 
 .paralax {
     height: 100px;
     width: 100%;
     background-color: #13366e;
+    margin: 30px 0px;
+}
+/* Card Deck and Cards */
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 35px 0;
+    height: 450px;
+}
+
+.card {
+    border: solid 1px #13366e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-header {
+    height: 25%;
+}
+
+.about-section {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #13366e;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.desc-about {
+    border: solid red 2px;
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    align-content: center;
+}
+
+.image-about {
+    border: solid red 2px;
+    height: 80%;
+    width: 40%;
+    text-align: center;
+    align-content: center;
 }
