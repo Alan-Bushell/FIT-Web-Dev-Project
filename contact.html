@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/3af9543e24.js" crossorigin="anonymous"></script>
-    <title>DNIC - Food & Drink 🍽️🍷</title>
+    <title>DNIC - Contact 📞</title>
 </head>
 <body>
     <!--Nav-->
@@ -48,58 +48,58 @@
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="todo.html">Things to do</a>
-            <a class="active" href="food.html">Food & Drink</a>
+            <a href="food.html">Food & Drink</a>
             <a href="people.html">People</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="active">Contact</a>
             <a href="#"><i class="fas fa-cart-shopping"></i></a>
         </div>
     </div>
-    <!--food container-->
-    <div class="todo-container">
-        <div class="hero-image"></div>
-    </div>
-    <!--Button container-->
-    <div class="btn-group">
-        <button>Food</button>
-        <button>Drink</button>
-        <button>Notable</button>
-    </div>
-    <!--Button Container Elements-->
-    <div class="output-container">
-        <!--food container-->
-        <div class="food-container">
-            <div class="food-1">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+    <h1 class="text-center">Contact Page</h1>
+    <h2 class="text-center contact-h2">Please use the contact form to contact us or check out our socials in the footer below</h2>
+    <!--Contact container-->
+    <div class="contact-container">
+        <div class="form-container">
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                  <label class="form-label" for="name">Name:</label>
+                  <input class="form-input" type="text" id="name" name="name" required>
                 </div>
-            </div>
-            <div class="food-2">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+              
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone:</label>
+                  <input class="form-input" type="tel" id="phone" name="phone" required>
                 </div>
-            </div>
-            <div class="food-3">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+              
+                <div class="form-group">
+                  <label class="form-label" for="email">Email:</label>
+                  <input class="form-input" type="email" id="email" name="email" required>
                 </div>
+              
+                <div class="form-group">
+                  <label class="form-label" for="query">Query:</label>
+                  <textarea class="form-textarea" id="query" name="query" rows="4" required></textarea>
+                </div>
+              
+                <div class="form-group">
+                  <button class="form-submit" type="submit">Send</button>
+                </div>
+              </form>
+        </div>
+        <div class="vl"></div>
+        <div class="product-container">
+            <div class="product-text">
+                <p>We offer a travel guide as part of our service that you can currently purchase for €5.</p>
+                <p>Click the button below to add it to the cart and be directed to a checkout page. Once payment is comple you can download the
+                travel guide</p>
+                <button class="add-cart-btn">Add to Cart</button>
             </div>
         </div>
-        <!--drink container-->
-        <div class="drink-container">
-            <div class="drink-1"></div>
-            <div class="drink-2"></div>
-            <div class="drink-3"></div>
-        </div>
-        <!--notable container-->
-        <div class="random-container">
-            <div class="random-1"></div>
-            <div class="random-2"></div>
-            <div class="random-3"></div>
-        </div>
     </div>
+
+    <div class="map-container">
+        
+    </div>
+    
     <!--Footer-->
     <footer>
         <div class="foot-row">

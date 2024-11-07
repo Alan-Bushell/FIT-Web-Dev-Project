@@ -353,3 +353,119 @@ footer {
     height: 60%;
     border: solid green 1px;
 }
+
+.notable-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.notable-1, .notable-2, .notable-3 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: solid green 1px;
+}
+
+.person-text, .person-image {
+    height: 100%;
+    width: 50%;
+    border: solid red 1px;
+}
+
+.contact-container {
+    height: 450px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Change this line */
+    width: 80%;
+    margin: 30px auto; /* Center the container horizontally */
+}
+
+.contact-h2 {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.form-container, .product-container {
+    border: solid red 1px;
+    width: 45%; /* Adjust the width as needed */
+    height: 100%;
+}
+
+/* Vertical line */
+.vl {
+    border-left: 1px solid black;
+    height: 80%; /* Adjust height as needed */
+    width: 0;
+    align-self: center;
+}
+
+  /* form attibutes */
+.contact-form {
+    width: 100%;
+    
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.form-input, .form-textarea {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+  
+.form-textarea {
+    resize: vertical;
+}
+  
+.form-submit {
+    background-color: #13366e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+}
+  
+.form-submit:hover {
+    background-color: #45a049;
+}
+
+.product-text {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.add-cart-btn {
+
+    background-color: #13366e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.map-container {
+    height: 500px;
+    max-width: 100%;
+    border: solid blue 1px;
+}
