@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/3af9543e24.js" crossorigin="anonymous"></script>
-    <title>DNIC - Food & Drink 🍽️🍷</title>
+    <title>DNIC - Checkout - 🛒 </title>
 </head>
 <body>
     <!--Nav-->
@@ -48,58 +48,76 @@
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="todo.html">Things to do</a>
-            <a class="active" href="food.html">Food & Drink</a>
+            <a href="food.html">Food & Drink</a>
             <a href="people.html">People</a>
-            <a href="contact.html">Contact</a>
-            <a href="cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <a href="contact.html" >Contact</a>
+            <a href="cart.html" class="active"><i class="fas fa-cart-shopping"></i></a>
         </div>
     </div>
-    <!--food container-->
-    <div class="todo-container">
-        <div class="hero-image"></div>
+    <h1 class="text-center">Shopping Cart</h1>
+    <h2 class="text-center contact-h2">Please complete payment to download our handy travel brochure!</h2>
+    <!--Cart-->
+    <div class="cart-container">
+        <div class="cart-card">
+            <div class="cart-img">image</div>
+            <div class="cart-desc">Our handy Inner City Travel Guide. Feel like a local.</div>
+            <div class="cart-price">€5</div>
+        </div>
     </div>
-    <!--Button container-->
-    <div class="btn-group">
-        <button>Food</button>
-        <button>Drink</button>
-        <button>Notable</button>
-    </div>
-    <!--Button Container Elements-->
-    <div class="output-container">
-        <!--food container-->
-        <div class="food-container">
-            <div class="food-1">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+
+    <!--checkout container-->
+    <div class="checkout-container">
+        <div class="form-container">
+            <form class="payment-form" action="#"> <!--removed the form action and method as i will be using js to show dummy PMNT success.-->
+                <!--name-->
+                <div class="form-group-pmtn">
+                  <label class="form-label" for="name">Name:</label>
+                  <input class="form-input" type="text" id="name" name="name" required>
                 </div>
-            </div>
-            <div class="food-2">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+                <!--phone number-->
+                <div class="form-group-pmtn">
+                  <label class="form-label" for="phone">Phone:</label>
+                  <input class="form-input" type="tel" id="phone" name="phone" required>
                 </div>
-            </div>
-            <div class="food-3">
-                <div class="food-img-cap"></div>
-                <div class="food-text">
-                    <p>Random text goes here</p>
+                <!--email-->
+                <div class="form-group-pmtn">
+                  <label class="form-label" for="email">Email:</label>
+                  <input class="form-input" type="email" id="email" name="email" required>
                 </div>
-            </div>
-        </div>
-        <!--drink container-->
-        <div class="drink-container">
-            <div class="drink-1"></div>
-            <div class="drink-2"></div>
-            <div class="drink-3"></div>
-        </div>
-        <!--notable container-->
-        <div class="random-container">
-            <div class="random-1"></div>
-            <div class="random-2"></div>
-            <div class="random-3"></div>
+                <!--Card number-->
+                <div class="form-group-pmnt">
+                    <label class="form-label" for="card-number">Card Number:</label>
+                    <input class="form-input" type="text" id="card-number" name="card-number" required>
+                </div>
+                <!--expiry-->
+                <div class="form-group-pmnt">
+                    <label class="form-label" for="form-label">Expiration Date (MM/YY):</label>
+                    <input class="form-input" type="text" id="card-expiry" name="card-expiry" 
+                            placeholder="MM/YY" 
+                            pattern="(0[1-9]|1[0-2])\/[0-9]{2}"
+                            maxlength="5"
+                            required>
+                </div>
+                <!--CVV-->
+                <div class="form-group-pmnt">
+                    <label class="form-label" for="card-cvc">CVC:</label>
+                    <input class="form-input" type="text" id="card-cvc" name="card-cvc" required>
+                </div>
+              
+                <div class="form-group-pmnt">
+                  <button class="form-submit" type="submit">Pay Now - €5</button>
+                </div>
+              </form>
         </div>
     </div>
+
+    <div class="payment-success-container">
+        <h3 class="text-center">Payment Successful</h3>
+        <small>TXID: {Datetime input}</small>
+        <h4>Click the button below to download your own DNIC Travel Guide</h4>
+        <button class="download-btn">Download Guide</button>
+    </div>
+    
     <!--Footer-->
     <footer>
         <div class="foot-row">
