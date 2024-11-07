@@ -64,7 +64,6 @@ body, html {
     align-items: center;
     max-width: 100%;
     min-height: 620px;
-    border: solid red 1px;
     background-color: #13366e;
 }
 
@@ -76,7 +75,7 @@ body, html {
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    border: solid green 1px;
+    border: dashed 10px #13366e;
 }
 
 .visit-section {
@@ -92,9 +91,14 @@ body, html {
 }
 
 .text-1, .image-1, .text-2, .image-2 {
-    border: solid 1px blue;
+    
     height: 350px;
     width: 450px;
+}
+
+.image-2 > img, .image-1 > img {
+    max-width: 100%;
+    min-height: 100%;
 }
 
 .paralax {
@@ -136,7 +140,6 @@ body, html {
 }
 
 .desc-about {
-    border: solid red 2px;
     height: 80%;
     width: 60%;
     text-align: center;
@@ -144,11 +147,21 @@ body, html {
 }
 
 .image-about {
-    border: solid red 2px;
     height: 80%;
     width: 40%;
     text-align: center;
     align-content: center;
+    padding: 10px;
+}
+
+.feat-p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.image-about > img {
+    max-width: 100%;
+    min-height: 100%;
 }
 
 /*footer*/
@@ -546,3 +559,4 @@ footer {
     width: 150px;
     height: 30px;
 }
+
