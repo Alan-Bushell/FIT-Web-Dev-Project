@@ -46,8 +46,8 @@ body, html {
 
 /* Active link */
 .topnav .nav-links a.active {
-    background-color: #6E4B13;
-    color: white;
+    background-color: #fff;
+    color: #13366e;
     border-radius: 5px;
 }
 
@@ -80,7 +80,6 @@ body, html {
 
 .visit-section {
     min-height: 700px;
-    border: solid 1px orangered;
 }
 
 .why-1, .why-2 {
@@ -94,6 +93,11 @@ body, html {
     
     height: 350px;
     width: 450px;
+}
+
+.text-1, .text-2 {
+    font-size: 20px;
+    text-align: left;
 }
 
 .image-2 > img, .image-1 > img {
@@ -117,13 +121,23 @@ body, html {
 }
 
 .card {
-    border: solid 1px #13366e;
+    border: solid 2px #13366e;
     border-radius: 10px;
     padding: 10px;
+    width: 25%;
 }
 
 .card-header {
-    height: 25%;
+    height: 40%;
+}
+
+.card-header > img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-desc > p {
+    width: 100%;
 }
 
 .about-section {
@@ -173,7 +187,6 @@ footer {
 }
 
 .foot-row {
-    border: solid red 1px;
     width: 90%;
     height: 100%;
     margin-left: 5%;
@@ -183,7 +196,6 @@ footer {
 }
 
 .foot-col-left, .foot-col-center, .foot-col-right {
-    border: solid green 1px;
     height: 100%;
     width: 30%;
 }
@@ -193,9 +205,19 @@ footer {
     text-align: center;
 }
 
+.about-p {
+    text-align: left;
+    padding: 5px;
+}
+
 .foot-col-center {
     align-content: end;
     text-align: center;
+}
+
+.foot-col-center > img {
+    width: 100%;
+    height: 80%;
 }
 
 .h5-sitelinks {
@@ -203,10 +225,10 @@ footer {
     margin-bottom: 10px;
 }
 
-.links-row-1, .links-row-2 {
+.links-row-1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20%;
+    gap: 20px;
     width: 100%;
     justify-content: center;
 }
@@ -215,7 +237,7 @@ footer {
     margin-bottom: 10%;
 }
 
-.links-row-1 > a, .links-row-2 > a {
+.links-row-1 > a {
     color: white;
 }
 
@@ -256,14 +278,24 @@ footer {
 
 /* To do Page */
 
+/* Hero image styles */
+.todo-hero-image {
+    width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
+    min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
+    background-image: url('https://images.myguide-cdn.com/dublin/companies/dublin-viking-and-norman-castle-private-tour-in-a-luxury-car/large/dublin-viking-and-norman-castle-private-tour-in-a-luxury-car-4535672.jpg'); /* Placeholder */
+    background-size: cover;
+    background-position: bottom; /* The image was too high at center */
+    border-radius: 8px;
+    border: dashed 10px white;
+}
+
 .todo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     min-height: 620px;
-    border: solid red 1px;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .todo-1, .todo-2 {
@@ -277,18 +309,43 @@ footer {
     width: 50%;
 }
 
+.td-image-1 {
+    background-image: url('https://gowildmagazine.com/wp-content/uploads/2020/04/Temple-Bar.jpeg');
+    background-position: top;
+    background-size: cover;
+}
+
+.td-image-2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/Dublin_Famine_Ship_Museum_Jeanie_Johnston_1.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
 .td-text-1, .td-text-2 {
     background-color: #13366e;
 }
 
+.td-h3 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+}
+
+.td-1-p {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
 .todo-container {
     height: 200px;
-    border: solid green 1px;
     margin-bottom: 30px;
 }
 
 .td-item-row {
-    border: solid orange 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,11 +354,13 @@ footer {
 }
 
 .todo-item {
-    border: solid 1px brown;
+    border-bottom: inset 1px #13366e;
+    border-right: inset 2px #13366e;
     height: 45%;
     width: 90%;
     align-self: center;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .td-card-title {
