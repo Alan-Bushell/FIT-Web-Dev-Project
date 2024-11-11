@@ -6,6 +6,11 @@ body, html {
     background-color: antiquewhite;
 }
 
+hr {
+    width: 80%;
+    color: #13366e;
+}
+
 /* Default text center class*/
 .text-center {
     text-align: center;
@@ -119,6 +124,39 @@ body, html {
     justify-content: space-evenly;
     margin: 35px 0;
     height: 450px;
+}
+
+.card-btn {
+    background-color: #13366e;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.td-card-btn {
+    background-color: #13366e;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.feat-card-btn {
+    background-color: antiquewhite;
+    color: #13366e;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .card {
@@ -391,7 +429,6 @@ footer {
 }
 
 .output-container {
-    border: solid red 1px;
     width: 100%;
     height: 1800px;
 }
@@ -435,12 +472,12 @@ footer {
     justify-content: center;
     height: 25%;
     width: 50%;
-    border: solid 1px green;
     border-radius: 10px;
+    border-bottom: inset #13366e 2px;
+    border-right: inset #13366e 3px;
 }
 
 .food-img-cap {
-    border: red solid 1px;
     height: 50%; /* Height combined with .food-text should be 100% of parent container */
     width: 100%;
     border-radius: 10px;
@@ -451,12 +488,12 @@ footer {
 
 .food-img-cap > img {
     width: 50%;
+    border-radius: 5px;
 }
 
 .food-text {
     width: 100%;
     height: 60%;
-    border: solid green 1px;
 }
 
 .food-text > p {
@@ -481,7 +518,6 @@ footer {
     justify-content: center;
     align-items: center;
     width: 70%;
-    border: solid green 1px;
 }
 
 .people-hero {
@@ -500,7 +536,6 @@ footer {
     justify-content: center;
     height: 100%;
     width: 50%;
-    border: solid red 1px;
 }
 
 
@@ -587,7 +622,7 @@ footer {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 25%;
+    width: 30%;
 }
   
 .form-submit:hover {
@@ -629,7 +664,6 @@ footer {
 
 .checkout-container {
     height: 450px;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
     justify-content: space-around; /* Change this line */
@@ -644,30 +678,34 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid green 1px;
     margin: 40px 0px;
     border-radius: 10px;
 }
 
 .cart-card {
-    border: solid blue 1px;
     height: 100%;
     width: 50%;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
+    border: solid 2px #13366e;
+    padding: 5px;
 }
 
 .cart-img {
     width: 30%;
     height: 100%;
-    border: solid 1px purple;
+}
+
+.cart-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .cart-desc {
     width: 50%;
     height: 100%;
-    border: #ff0000 solid 1px;
     align-content: center;
     text-align: center;
 }

@@ -59,7 +59,9 @@
     <!--Cart-->
     <div class="cart-container">
         <div class="cart-card">
-            <div class="cart-img">image</div>
+            <div class="cart-img">
+                <img src="https://pplx-res.cloudinary.com/image/upload/v1731327399/ai_generated_images/iky5pl9livgw13brpkxq.png" alt="">
+            </div>
             <div class="cart-desc">Our handy Inner City Travel Guide. Feel like a local.</div>
             <div class="cart-price">€5</div>
         </div>
@@ -87,11 +89,11 @@
                 <!--Card number-->
                 <div class="form-group-pmnt">
                     <label class="form-label" for="card-number">Card Number:</label>
-                    <input class="form-input" type="text" id="card-number" name="card-number" required>
+                    <input class="form-input" type="text" id="card-number" name="card-number" pattern="^\d{16}$" required>
                 </div>
                 <!--expiry-->
                 <div class="form-group-pmnt">
-                    <label class="form-label" for="form-label">Expiration Date (MM/YY):</label>
+                    <label class="form-label" for="card-expiry">Expiration Date (MM/YY):</label>
                     <input class="form-input" type="text" id="card-expiry" name="card-expiry" 
                             placeholder="MM/YY" 
                             pattern="(0[1-9]|1[0-2])\/[0-9]{2}"
@@ -100,8 +102,8 @@
                 </div>
                 <!--CVV-->
                 <div class="form-group-pmnt">
-                    <label class="form-label" for="card-cvc">CVC:</label>
-                    <input class="form-input" type="text" id="card-cvc" name="card-cvc" required>
+                    <label class="form-label" for="card-cvc">CVV:</label>
+                    <input class="form-input" type="text" id="card-cvc" name="card-cvc" pattern="^\d{3}$" required>
                 </div>
               
                 <div class="form-group-pmnt">
