@@ -521,7 +521,6 @@ footer {
 
 .contact-container {
     height: 450px;
-    border: solid 1px red;
     display: flex;
     flex-direction: row;
     justify-content: space-around; /* Change this line */
@@ -535,9 +534,14 @@ footer {
 }
 
 .form-container, .product-container {
-    border: solid red 1px;
     width: 45%; /* Adjust the width as needed */
     height: 100%;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Vertical line */
@@ -609,7 +613,14 @@ footer {
 .map-container {
     height: 500px;
     max-width: 100%;
-    border: solid blue 1px;
+    border-top: #13366e 2px solid;
+    margin-top: 50px;
+}
+
+.map-h3 {
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    font-size: 24px;
 }
 
 .form-group-pmnt {
