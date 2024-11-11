@@ -746,3 +746,193 @@ footer {
     min-height: 620px;
     background-color: antiquewhite;
 }
+
+
+/* Media Queries */
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 475px) {
+    
+    .hero-image {
+        width: 80%;
+    }
+    .why-1, .why-2 {
+        flex-direction: column;
+    }
+
+    .image-2, .image-1 {
+        width: 100%;
+    }
+
+    .image-1 > img, .image-2 >img {
+        object-fit: scale-down;
+    }
+    
+    .text-1, .text-2 {
+        width: 100%;
+    }
+
+    .paralax {
+        margin-top: 50px;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px;
+        
+    }
+
+    .logo {
+        display: none;  /*Make sure to remove once the responsive nav has been added */
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .about-section {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+
+    .desc-about {
+        width: 90%;
+    }
+
+    .feat-p {
+        margin: 0;
+    }
+
+    .image-about {
+        width: 100%;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    .image-about > img {
+        max-width: 400px;
+    }
+
+    .foot-row {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .foot-col-left, .foot-col-center, .foot-col-right {
+        width: 100%;
+        background-color: #13366e;
+        margin: 0;
+        padding: 0;
+    }
+/* todo.html @ 425 pixels */
+
+    .todo-hero-image {
+        width: 80%;
+    }
+
+    .todo-1{
+        flex-direction: column-reverse;
+    }
+
+    .todo-2 {
+        flex-direction: column;
+    }
+
+    .td-image-1, .td-image-2, .td-text-1, .td-text-2 {
+        width: 100%;
+        
+    }
+
+    .td-image-2 {
+        margin: 0;
+    }
+
+    .td-1-p {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .todo-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    /* food.html */
+
+    .food-hero-image {
+        width: 80%;
+    }
+
+    .food-1, .food-2, .food-3 {
+        width: 90%;
+    }
+
+    /* people.html */
+
+    .people-hero {
+        width: 80%;
+    }
+
+    .output-container {
+        height: 100%;
+    }
+
+    .notable-1, .notable-3 {
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 90%;
+    }
+
+    .notable-2 {
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+
+    .person-image {
+        width: 90%;
+    }
+
+    .person-text {
+        width: 80%;
+    }
+
+    /* contact.html */
+
+    .contact-h2 {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .contact-container {
+        height: 100%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+
+    .product-container, .product-text {
+        width: 90%;
+        margin-left: 5%;
+    }
+  }
+
+
+
