@@ -943,6 +943,15 @@ footer {
         width: 90%;
         margin-left: 5%;
     }
+
+    /* cart.html */
+    .cart-card {
+        width: 90%;
+    }
+
+    .form-submit {
+        width: 120px;
+    }
   }
 
 
