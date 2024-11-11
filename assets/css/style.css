@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: antiquewhite;
 }
 
 /* Default text center class*/
@@ -286,7 +287,7 @@ footer {
     background-size: cover;
     background-position: bottom; /* The image was too high at center */
     border-radius: 8px;
-    border: dashed 10px white;
+    border: dashed 10px antiquewhite;
 }
 
 .todo-container {
@@ -295,7 +296,7 @@ footer {
     align-items: center;
     max-width: 100%;
     min-height: 620px;
-    background-color: #fff;
+    background-color: antiquewhite;
 }
 
 .todo-1, .todo-2 {
@@ -335,7 +336,7 @@ footer {
 
 .td-1-p {
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     padding: 10px;
 }
@@ -395,12 +396,36 @@ footer {
     height: 1800px;
 }
 
-.food-container{
+/* Hero image styles */
+.food-hero-image {
+    width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
+    min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
+    background-image: url('https://tripjive.com/wp-content/uploads/2024/03/Must-try-Irish-pub-food-dishes-in-Dublin-1024x585.jpg'); /* Placeholder */
+    background-size: cover;
+    background-position: bottom; /* The image was too high at center */
+    border-radius: 8px;
+    border: dashed 10px #13366e;
+    margin: 30px 0px;
+}
+
+.food-container {
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    height: 100%;
+    flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #13366e;
+}
+
+.food-output-cont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: antiquewhite;
 }
 
 .food-1, .food-2, .food-3 {
@@ -459,10 +484,39 @@ footer {
     border: solid green 1px;
 }
 
+.people-hero {
+    width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
+    min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
+    background-image: url('https://documentaryheaven.com/wp-content/thumbnails/16466-770x433.jpg'); /* Placeholder */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: dashed 10px antiquewhite;
+}
+
 .person-text, .person-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     width: 50%;
     border: solid red 1px;
+}
+
+
+.person-image > img {
+    width: 100%;
+    height: 75%;
+}
+
+.person-image > h2 {
+    text-align: center;
+}
+
+.person-text {
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
 .contact-container {
@@ -633,3 +687,13 @@ footer {
     height: 30px;
 }
 
+/* people.html */
+
+.people-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 620px;
+    background-color: antiquewhite;
+}
