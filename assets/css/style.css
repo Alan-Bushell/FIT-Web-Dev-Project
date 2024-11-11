@@ -756,8 +756,14 @@ footer {
     .hero-image {
         width: 80%;
     }
-    .why-1, .why-2 {
+    .why-2 {
         flex-direction: column;
+        margin: 15px;
+    }
+
+    .why-1 {
+        flex-direction: column-reverse;
+        margin: 15px;
     }
 
     .image-2, .image-1 {
@@ -875,8 +881,13 @@ footer {
         width: 80%;
     }
 
+    .food-img-cap > img {
+        height: 135px;
+    }
+
     .food-1, .food-2, .food-3 {
         width: 90%;
+        margin-bottom: 20px;
     }
 
     /* people.html */
