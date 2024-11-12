@@ -481,7 +481,7 @@ footer {
     background-color: #13366e;
 }
 
-.food-output-cont {
+.food-output-cont, .drink-output-cont, .notable-output-cont {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

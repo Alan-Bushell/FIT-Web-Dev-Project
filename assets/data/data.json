@@ -1,0 +1,134 @@
+{
+    "Food": [
+      {
+        "title": "The Winding Stair",
+        "description": "The Winding Stair Bookshop & Cafe became a famous Dublin landmark in the 1970s and 1980s. Named after the Yeats poem, and in honor of its winding staircase, it is perfectly located, overlooking the river Liffey, with an iconic view of the Ha'penny bridge. As a popular meeting place for writers, musicians, and artists, it was a well-known hub for debate and creativity with many poems written, novels penned, and movies shot within its walls. When its closure was announced in 2005, there were mutterings about the end of an era, but in 2006, Elaine Murphy brought this much-loved spot back to life as a restaurant, championing seasonal, Irish produce.",
+        "images": [
+          {
+            "url": "https://pbs.twimg.com/media/EmJVRxKW0AAaJns.jpg",
+            "alt": "The front facade of The Winding Stair"
+          },
+          {
+            "url": "https://images.otstatic.com/prod/25216238/1/huge.jpg",
+            "alt": "Interior of The Winding Stair restaurant"
+          }
+        ]
+      },
+      {
+        "title": "SS Cill Airne",
+        "description": "Two passenger liner tenders were commissioned by the Irish Government on July 12, 1961 – the M.V. Blarna and its exact replica or sister ship, the M.V. Cill Airne. The sisters were built in the Liffey Dockyard in Dublin and were the very last of the riveted ships to be built in Europe. Riveting was being replaced by electric arc welding in the 1930s, but the incredible production of the Liberty ships during the war sealed the fate of riveting forever. In January 2006, she sailed under her own power to Hegarty’s Boatyard in West Cork, where a quality team of old-style shipwrights restored the MV Cill Airne to her present condition. She is now a Bar & Restaurant open 7 days a week",
+        "images": [
+          {
+            "url": "https://resizer.otstatic.com/v2/photos/wide-huge/2/46924428.jpg",
+            "alt": "Photo of the Cill Airne boat at dusk"
+          },
+          {
+            "url": "https://www.mvcillairne.com/wp-content/uploads/2021/03/boat-bar-and-bistro-mv-cill-airne-boat-bar.jpg",
+            "alt": "Photo of the Cill Airne boat restaurant"
+          }
+        ]
+      },
+      {
+        "title": "Chapter One",
+        "description": "The new era with Mickael Viljanen’s energy and passion along with Ross Lewis’s mentoring and expertise aims to create one of the most unique dining experiences in Ireland. The merging of cultures, new alliances, suppliers, and team will bring Chapter One to the next level with a strong focus on excellence in a clean, modern style. Chapter One’s famous welcome awaits guests who will immerse themselves in a luxurious dining room for an exceptional dining experience.",
+        "images": [
+          {
+            "url": "https://b70f084e29f3f8faffb0-389fffc5b90936635d166a32fdb11b6a.ssl.cf3.rackcdn.com/andy-hayler-chapter-one-by-mickael-viljanen-outside-w709-h532.jpg",
+            "alt": "Exterior of Chapter One restaurant"
+          },
+          {
+            "url": "https://chapteronerestaurant.com/wp-content/uploads/2022/04/Midleton_Room.jpg",
+            "alt": "Inside shot of Chapter One's table layout"
+          }
+        ]
+      }
+    ],
+    "Drink": [
+      {
+        "title": "The Parnell Heritage Pub",
+        "description": "The Parnell Heritage Pub & Grill in Dublin City provides a modern twist on a classic Irish pub. On Parnell Street, this gastro pub combines old Irish charm with new age interior design. Whether you want to relax on the heated rooftop terrace, watch your favourite sports on the big screens, or join the lively traditional Irish music sessions, The Parnell Heritage Pub & Grill has something for everyone",
+        "images": [
+          {
+            "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=630,fit=crop,f=jpeg/m2WQzXnNkncMB4No/10368915_656152644462821_2560531919283356313_o-1-AR0bvgOvExFD13O1.jpg",
+            "alt": "Outside of The Parnell pub"
+          },
+          {
+            "url": "https://www.euansguide.com/remote.axd/nucleusimagery.blob.core.windows.net%2Flive%2F272890a8-3586-4240-9f4c-cc1b3c8d761a?width=705&height=390&mode=crop",
+            "alt": "Insdie of The Temple Bar Pub"
+          }
+        ]
+      },
+      {
+        "title": "The Church Bar",
+        "description": "Saint Mary’s (former) Church of Ireland was opened its doors in 1701 to the design of Sir William Robinson and was completed by his successor, Thomas Burgh. It was the first classical parish church in the city and was the site of Arthur Guinness’s marriage in 1761. Wolfe Tone was baptised here and the church also witnessed John Wesley’s first Irish sermon.",
+        "images": [
+          {
+            "url": "https://connectshowcase.ie/wp-content/uploads/2017/10/banner-9-1024x430.jpg",
+            "alt": "Outside view of The church bar"
+          },
+          {
+            "url": "https://walls.ie/wp-content/uploads/2021/03/7-1024x683.jpg",
+            "alt": "Inside view of the historic church bar"
+          }
+        ]
+      },
+      {
+        "title": "The Bernard Shaw",
+        "description": "The Bernard Shaw Pub in Dublin is a must-visit for anyone looking to dive into the city's vibrant nightlife and cultural scene. Originally known for its quirky atmosphere in Portobello, it has now transformed into an even more eclectic space in Glasnevin, bringing with it the famous Eatyard Street food market, live music, and a variety of events. It's not just a pub; it's an experience where you can enjoy everything from drag brunches to live karaoke, all while sipping on craft beers or savoring delicious food from various trucks.",
+        "images": [
+          {
+            "url": "https://thebernardshaw.com/wp-content/uploads/2020/06/BernardShaw_Eatyard-4Y3A4775-1.jpg",
+            "alt": "Outside view of the bernard shaw"
+          },
+          {
+            "url": "https://thebernardshaw.com/wp-content/uploads/2022/12/Bernard-Shaw-148-scaled.jpg",
+            "alt": "Interior of The bernard shaw"
+          }
+        ]
+      }
+    ],
+    "Notable": [
+      {
+        "title": "The Brazen Head",
+        "description": "The Brazen Head is Ireland's oldest pub. In fact there has been a hostelry here since 1198. The present building was built in 1754 as a coaching inn. However The Brazen Head appears in documents as far back as 1653. An advertisement from the 1750’s reads “Christopher Quinn of The Brazen Head in Bridge Street has fitted said house with neat accommodations and commodious cellars for said business”.",
+        "images": [
+          {
+            "url": "https://cdn.thatch.in/cdn-cgi/image/width=1200,quality=100,format=webp/images/735400/1vxpi5r.png",
+            "alt": "Interior of The brazen head"
+          },
+          {
+            "url": "https://brazenhead.com/wp-content/uploads/2022/06/The-Brazen-Head-Lounge-Fireplace-1.jpg",
+            "alt": "Interior of The brazen head"
+          }
+        ]
+      },
+      {
+        "title": "Bewleys Cafe",
+        "description": "For nearly 100 years, Bewley’s Café on bustling Grafton Street has been Dublin’s favourite place for award-winning coffee, delicious food and timeless charm. A beloved gathering place for locals and visitors alike, we are proud to roast, grind, bake, craft, pour and serve in this celebrated building, an intrinsic part of the fabric of Dublin. Bewley’s is more than a café – we are deeply intertwined with Ireland’s literary and artistic heritage. Follow in the footsteps of James Joyce, W.B. Yeats and Samuel Beckett.",
+        "images": [
+          {
+            "url": "https://panoramicireland.com/media/k2/items/cache/7faf56e5874604be96ba8fa8c4e07ea4_XL.jpg",
+            "alt": "Exterior of bewleys cafe"
+          },
+          {
+            "url": "https://www.flynnmc.com/content/projects/Bewleys.jpg",
+            "alt": "Interior of bewleys cafe"
+          }
+        ]
+      },
+      {
+        "title": "O'Donoghues",
+        "description": "Probably the best known traditional Irish music pub in Dublin. O'Donoghue's always has the sound of music coming from its walls, frequented of the years by many musicians from the Dubliner’s to Bruce Springsteen. O'Donoghue's has a rich history in providing a welcome for locals & tourist alike to play a tune or enjoy a pint.",
+        "images": [
+          {
+            "url": "https://cdn.myguestdiary.com/uploads/1355/__page__header-exterior-1.jpg?width=0&height=0&mode=crop",
+            "alt": "outside view of o'donoghues"
+          },
+          {
+            "url": "https://images.squarespace-cdn.com/content/v1/5ffdc197eebe5c34a6cacb49/1617457496360-JLKUUBSHZR2ZMG444Y2T/od2.jpg",
+            "alt": "Inside of O'donoghues"
+          }
+        ]
+      }
+    ]
+  }
