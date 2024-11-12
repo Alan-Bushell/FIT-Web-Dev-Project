@@ -1,0 +1,48 @@
+/* Responsive Design - Show hamburger and hide normal nav on small screens */
+@media screen and (max-width: 768px) {
+    
+    /* Hide normal nav-links on small screens */
+    .topnav .nav-links {
+        display: none; 
+    }
+ 
+    /* Show hamburger button on small screens */
+    .hamburger {
+        display: flex; 
+    }
+ 
+    /* Mobile nav styles for small screens */
+    .mobile-nav {
+        position: absolute;
+        top: 60px; /* Adjust based on your header height */
+        left: 0;
+        right: 0;
+        background-color: #13366e; /* Same as your main nav background */
+        flex-direction: column; 
+        z-index: 9999; /* Ensure it appears above other content */
+    }
+ 
+    .mobile-nav a {
+        padding-left :10px; /* Adjust padding for better alignment */
+    }
+ }
+ 
+ /* Additional media query for smaller screens (280px and up) */
+ @media screen and (max-width: 475px) {
+     
+    /* Adjustments for very small screens like 280px wide */
+    .topnav {
+        padding-left :10px ; 
+        padding-right :10px ; 
+    }
+ 
+    /* Reduce font size and spacing for smaller screens */
+    .topnav .logo {
+        font-size :14px ; 
+    }
+ 
+    .hamburger span{
+       width :20 px ; 
+       height :2 px ;
+    }
+ }
