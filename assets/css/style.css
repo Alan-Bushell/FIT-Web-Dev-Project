@@ -11,6 +11,24 @@ hr {
     color: #13366e;
 }
 
+.h1-hero {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    color: #13366e;
+    background-color: antiquewhite;
+}
+
+.h1-hero-alt {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    color: antiquewhite;
+    border: solid 1px #13366e;
+    background-color: #13366e;
+}
+
+
 /* Default text center class*/
 .text-center {
     text-align: center;
@@ -469,6 +487,22 @@ footer {
     border-radius: 8px;
     border: dashed 10px #13366e;
     margin: 30px 0px;
+}
+
+.btn-food, .btn-drink, .btn-notable, .btn-blue {
+    background-color: rgb(155, 120, 32);
+    color: white;
+}
+
+.btn-food:hover, .btn-drink:hover, .btn-notable:hover, .btn-blue:hover {
+    background-color: #13366e;
+    color: rgba(155, 120, 32);
+    cursor: pointer;
+}
+
+.active-option {
+    background-color: #13366e;
+    color: antiquewhite;
 }
 
 .food-container {

@@ -1,0 +1,130 @@
+{
+    "Notable": [
+      {
+        "title": "Bram Stoker",
+        "description": "Abraham 'Bram' Stoker was an Irish author who is best known for writing the 1897 Gothic horror novel Dracula. During his lifetime, he was better known as the personal assistant of actor Sir Henry Irving and business manager of the West End's Lyceum Theatre, which Irving owned. Stoker was born on 8 November 1847 at 15 Marino Crescent, Clontarf in Dublin, Ireland. The park adjacent to the house is now known as Bram Stoker Park.",
+        "images": [
+          {
+            "url": "https://www.irishcentral.com/uploads/article-v2/2023/3/157197/MI_A.Hickey-Bram-Stoker-lo1.jpg?t=1731058909",
+            "alt": "Portrait of Bram Stoker"
+          }
+        ]
+      },
+      {
+        "title": "James Joyce",
+        "description": "James Augustine Aloysius Joyce was an Irish novelist, poet and literary critic. He contributed to the modernist avant-garde movement and is regarded as one of the most influential and important writers of the 20th century. Joyce's novel Ulysses (1922) is a landmark in which the episodes of Homer's Odyssey are paralleled in a variety of literary styles, particularly stream of consciousness. Joyce was born in Dublin into a middle-class family.",
+        "images": [
+          {
+            "url": "https://epicchq.com/wp-content/uploads/2021/02/Joyce_Web.jpg",
+            "alt": "Portrait of James Joyce"
+          }
+        ]
+      },
+      {
+        "title": "Francis Bacon",
+        "description": "Francis Bacon was an Irish-born British figurative painter known for his raw, unsettling imagery. Focusing on the human form, his subjects included crucifixions, portraits of popes, self-portraits, and portraits of close friends, with abstracted figures sometimes isolated in geometrical structures. Rejecting various classifications of his work, Bacon said he strove to render 'the brutality of fact.' He built up a reputation as one of the giants of contemporary art with his unique style.",
+        "images": [
+          {
+            "url": "https://www.thenation.com/wp-content/uploads/2021/06/GettyImages-119861611.jpg",
+            "alt": "Portrait of Francis Bacon"
+          }
+        ]
+      }
+    ],
+    "Music": [
+      {
+        "title": "Thin Lizzy",
+        "description": "Thin Lizzy, the iconic Irish rock band fronted by the charismatic Phil Lynott, is celebrated for its unique blend of hard rock and Celtic influences. Known for hits like 'The Boys Are Back in Town' and 'Whiskey in the Jar,' the band left an indelible mark on rock music. In Dublin, fans can pay homage to Lynott at his bronze statue outside Bruxelles, a popular pub on Harry Street. This statue stands as a testament to his enduring legacy and the band's deep connection to the city.",
+        "images": [
+          {
+            "url": "https://i.discogs.com/x8pfk60vq8yiREll6tj-fs-YlHNvc9Z5EcRuQS9_Fn0/rs:fit/g:sm/q:90/h:375/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNjE4/OC0xNjYzNTA4MDQ4/LTY5NjMuanBlZw.jpeg",
+            "alt": "picture of thin lizzy"
+          }
+        ]
+      },
+      {
+        "title": "Glen Hansard",
+        "description": "Glen Hansard, renowned for his heartfelt songwriting and powerful performances, has been a staple of the Irish music scene for decades. As the lead singer of The Frames and one-half of the duo The Swell Season, Hansard has captivated audiences worldwide. His role in the film Once not only showcased his acting talent but also earned him an Academy Award for Best Original Song. Whether performing solo or with a band, Hansard's music continues to resonate deeply with fans both in Ireland and beyond.",
+        "images": [
+          {
+            "url": "https://music.mxdwn.com/wp-content/uploads/2019/09/Glen-Hansard-Ohana-Festival-2019-SH-2-1280x720.jpg",
+            "alt": "Glen Hansard playing guitar on stage"
+          }
+        ]
+      },
+      {
+        "title": "The Dubliners",
+        "description": "The Dubliners are legendary figures in Irish folk music, known for their spirited renditions of traditional songs and lively performances. Over their illustrious career, they played in many of Dublin's most famous pubs, including O'Donoghue's on Merrion Row and The Abbey Tavern in Howth. Their music, characterized by rich storytelling and vibrant instrumentation, has become synonymous with the sound of Dublin itself, capturing the heart and soul of the city through timeless classics like 'Whiskey in the Jar' and 'The Wild Rover.'",
+        "images": [
+          {
+            "url": "https://www.irishtimes.com/polopoly_fs/1.3774836!/image/image.jpg_gen/derivatives/landscape_620/image.jpg",
+            "alt": "The Dubliners sitting on a wall"
+          }
+        ]
+      }
+    ],
+    "Sport": [
+      {
+        "title": "Pádraig Harrington",
+        "description": "Pádraig Harrington, born in Rathfarnham, Dublin, has left an indelible mark on the world of golf. As a young boy, he honed his skills at nearby Stackstown Golf Club. His breakthrough came in 2007 when he won his first Open Championship, ending a 60-year drought for Irish golfers in this prestigious major. Harrington’s back-to-back Open victories in 2007 and 2008, along with his 2008 PGA Championship win, established him as one of Ireland's most celebrated sports figures. His roots in Dublin are a source of local pride, showcasing the city's ability to produce world-class athletes.",
+        "images": [
+          {
+            "url": "https://golf.com/wp-content/uploads/2021/02/paddy-harrington.jpg",
+            "alt": "Harrington on a golf course"
+          }
+        ]
+      },
+      {
+        "title": "Brian O'Driscoll",
+        "description": "Born in Clontarf, Dublin, Brian O'Driscoll is widely regarded as one of the greatest rugby players of all time. His journey in rugby began at Willow Park and continued through Blackrock College, where he developed a passion for the game. O'Driscoll's career highlights include captaining Ireland to a Grand Slam victory in the 2009 Six Nations Championship, and leading the British & Irish Lions on their 2005 tour of New Zealand. His 108 tries for Ireland and his record-breaking caps make him not just a sporting icon in Dublin but an inspiration to rugby fans worldwide.",
+        "images": [
+          {
+            "url": "https://www.irishtimes.com/resizer/v2/VML5X33TNRKZLKA6B234NKVI2A.jpg?auth=d8f4f083a5ca6e8d904e54bb8bc6f750b80d4f171a491ffc5aac70f70201e7a5&smart=true&width=1024&height=640",
+            "alt": "Brian O'Driscoll being interviewed at the aviva stadium"
+          }
+        ]
+      },
+      {
+        "title": "Robbie Keane",
+        "description": "Tallaght, a suburb of Dublin, is where Robbie Keane was born and raised, playing his early football on the streets and fields of his community. His talent was evident from a very young age, leading him to represent Ireland at various youth levels before making his senior debut at just 18. Keane's illustrious career saw him become Ireland's all-time leading goal scorer and the most capped outfield player. Beyond his achievements on the pitch, Robbie has given back to his community, notably through his involvement with Crumlin United, the club that helped him in his youth. His legacy in Dublin is not only as a football legend but as a local hero who continues to inspire future generations.",
+        "images": [
+          {
+            "url": "https://ichef.bbci.co.uk/ace/standard/1800/cpsprodpb/3253/live/f9b19810-24b9-11ef-8371-2578a4adb4a9.jpg",
+            "alt": "Robbie Keane on a football pitch"
+          }
+        ]
+      }
+    ],
+    "Acting": [
+      {
+        "title": "Brendan Gleeson",
+        "description": "Brendan Gleeson, a towering figure in both Irish and international cinema, was born in Dublin's suburb of Clontarf. Known for his versatile roles ranging from the formidable Alastor Moody in the Harry Potter series to the poignant priest in Calvary, Gleeson's career spans both critically acclaimed films and beloved blockbusters. His deep connection to Dublin is evident in his performances, where he brings an authentic Irish spirit to every character he portrays.",
+        "images": [
+          {
+            "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/DEWEQJ3KUAOQA5BPDNZ2BC2ZJQ.jpg",
+            "alt": "Brendan Gleeson in front of a purple background"
+          }
+        ]
+      },
+      {
+        "title": "Liam Cunningham",
+        "description": "Hailing from the East Wall area of Dublin, Liam Cunningham has made a significant mark in both film and television. Best recognized for his role as Davos Seaworth in HBO's Game of Thrones, Cunningham's rugged charm and depth have also been showcased in films like The Wind That Shakes the Barley and The Guard. His Dublin roots are often reflected in his choice of roles, bringing a genuine Dubliner's wit and warmth to his characters.",
+        "images": [
+          {
+            "url": "https://m.media-amazon.com/images/M/MV5BODY4YmI5NDMtYTI5Ny00NTg5LWEzZDAtMWViZTNhN2E0OGQ5XkEyXkFqcGc@._V1_.jpg",
+            "alt": "Liam Cunningham in Game of thrones"
+          }
+        ]
+      },
+      {
+        "title": "Barry Keoghan",
+        "description": "Barry Keoghan, the rising star of contemporary cinema, comes from Summerhill in Dublin's inner city. His breakthrough came with the film Killing of a Sacred Deer, but it was his role in The Banshees of Inisherin that solidified his status as one of Ireland's most promising actors. Keoghan's performances are marked by a raw intensity that speaks to his upbringing in Dublin, and his journey from the streets of Summerhill to the red carpets of Hollywood is a testament to his talent and determination.",
+        "images": [
+          {
+            "url": "https://ew.com/thmb/0iYPg7C54fzUYJYTHgFHjYm8YKo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Barry-Keoghan-TIFF-090924-a03c4067cee94eb5956c64025bc4dcac.jpg",
+            "alt": "Barry Keoghan at a film festival"
+          }
+        ]
+      }
+    ]
+  }

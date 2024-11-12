@@ -19,13 +19,30 @@ document.getElementById('hamburger').addEventListener('click', function() {
 // Function to fetch data from JSON file
 async function fetchData() {
    try {
-       const response = await fetch('assets/data/data.json'); // Adjust path if needed
+       const response = await fetch('assets/data/data.json'); 
        const data = await response.json();
        return data;
    } catch (error) {
        console.error('Error fetching data:', error);
        return null;
    }
+}
+
+// Add event listeners only if buttons exist on the page
+const btnFood = document.querySelector('.btn-food');
+const btnDrink = document.querySelector('.btn-drink');
+const btnNotable = document.querySelector('.btn-notable');
+
+if (btnFood) {
+   btnFood.addEventListener('click', () => updateContent('Food'));
+}
+
+if (btnDrink) {
+   btnDrink.addEventListener('click', () => updateContent('Drink'));
+}
+
+if (btnNotable) {
+   btnNotable.addEventListener('click', () => updateContent('Notable'));
 }
 
 // Function to update content based on selection
@@ -80,23 +97,16 @@ function updateContent(selection) {
 
            // Append the category container to the main output container
            outputContainer.appendChild(categoryContainer);
+
+           // Now add the 'active-option' class to the selected button
+           document.querySelectorAll('.btn-group button').forEach(button => {
+               button.classList.remove('active-option');
+           });
+
+           const activeButton = document.querySelector(`.btn-${selection.toLowerCase()}`);
+           if (activeButton) {
+               activeButton.classList.add('active-option');
+           }
        }
    });
-}
-
-// Add event listeners only if buttons exist on the page
-const btnFood = document.querySelector('.btn-food');
-const btnDrink = document.querySelector('.btn-drink');
-const btnNotable = document.querySelector('.btn-notable');
-
-if (btnFood) {
-   btnFood.addEventListener('click', () => updateContent('Food'));
-}
-
-if (btnDrink) {
-   btnDrink.addEventListener('click', () => updateContent('Drink'));
-}
-
-if (btnNotable) {
-   btnNotable.addEventListener('click', () => updateContent('Notable'));
 }
