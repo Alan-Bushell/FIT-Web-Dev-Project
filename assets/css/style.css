@@ -1100,4 +1100,29 @@ footer {
     .notable-2 {
         flex-direction: column;
     }
+
+    .contact-h2 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .product-container {
+        width: 90%;
+    }
+
+    .product-text {
+        width: 90%;
+        margin-left: 5%;
+    }
   }
