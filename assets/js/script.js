@@ -10,12 +10,6 @@ document.getElementById('hamburger').addEventListener('click', function() {
     }
  });
 
- // Psuedo code
- // 1. Store data in the json file
- // 2. get the value selected from the button but have a standard one outputting
- // 3. IF user selects an output type then alter the image, name & text of the selection
- // 4. Keep what I have done so far as placeholders on page load and then update the other content
-
 // Function to fetch data from JSON file
 async function fetchData() {
    try {
