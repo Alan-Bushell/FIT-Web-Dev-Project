@@ -139,6 +139,15 @@ hr {
     margin: 30px;
 }
 
+.cart-icon.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#cartIcon {
+    transition: opacity 0.3s ease;
+}
+
 .text-1, .image-1, .text-2, .image-2 {
     
     height: 100%;
@@ -788,12 +797,13 @@ footer {
 .download-btn {
     background-color: #13366e;
     color: white;
-    padding: 10px 15px;
+    padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: 150px;
-    height: 30px;
+    height: 20px;
+    text-align: center;
 }
 
 /* people.html */
