@@ -41,6 +41,15 @@
     <link rel="stylesheet" href="assets/css/mobile-nav.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/3af9543e24.js" crossorigin="anonymous"></script>
+    <!--Email.js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+          emailjs.init({
+            publicKey: "user_wUCpeN9IRWS204txURxuh"
+          });
+        })();
+      </script>
     <title>DNIC - Contact 📞</title>
 </head>
 <body>
@@ -78,7 +87,7 @@
     <!--Contact container-->
     <div class="contact-container">
         <div class="form-container">
-            <form class="contact-form" action="#" method="post">
+            <form class="contact-form" id="contact-form" action="#" method="post">
                 <div class="form-group">
                   <label class="form-label" for="name">Name:</label>
                   <input class="form-input" type="text" id="name" name="name" required>
@@ -156,7 +165,30 @@
             </div>
         </div>
     </footer>
+    <!--email.js script-->
+    <script type="text/javascript"> document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        const templateParams = {
+            name: document.getElementById('name').value,
+            phone: document.getElementById('phone').value,
+            email: document.getElementById('email').value,
+            message: document.getElementById('query').value
+        };
+    
+        emailjs.send('service_jk0h6gu', 'template_d0stilr', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Message sent successfully!');
+                document.getElementById('contact-form').reset();
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Failed to send message. Please try again.');
+            });
+    }); 
+    </script>
     <script src="assets/js/cart.js"></script>
     <script src="assets/js/script.js"></script>
+    
 </body>
 </html>

@@ -1091,6 +1091,10 @@ footer {
     .form-submit {
         width: 120px;
     }
+
+    #featurecardPanel {
+        width: 75%;
+    }
   }
 
   @media (min-width: 476px) and (max-width: 768px) {
