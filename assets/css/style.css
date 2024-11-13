@@ -17,6 +17,7 @@ hr {
     width: fit-content;
     color: #13366e;
     background-color: antiquewhite;
+    margin-left: 15px;
 }
 
 .h1-hero-alt {
@@ -26,6 +27,15 @@ hr {
     color: antiquewhite;
     border: solid 1px #13366e;
     background-color: #13366e;
+    margin-left: 15px;
+}
+
+.h1-hero-contact {
+    color: antiquewhite;
+    border-top: solid 1px antiquewhite;
+    margin: 0;
+    background-color: #13366e;
+    text-align: center;
 }
 
 
@@ -181,12 +191,21 @@ hr {
 
 .card-btn {
     background-color: #13366e;
-    color: white;
+    color: antiquewhite;
     height: 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: 100px;
+    transition: all .2s ease-in-out; 
+}
+
+.card-btn:hover {
+    color: #13366e;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: solid 2px #13366e;
+    transform: scale(1.1);
 }
 
 .td-card-btn {
@@ -198,6 +217,14 @@ hr {
     cursor: pointer;
     width: 30%;
     margin-top: 10px;
+    transition: all .2s ease-in-out; 
+}
+
+.td-card-btn:hover {
+    color: #13366e;
+    background-color: antiquewhite;
+    border: #13366e solid 2px;
+    transform: scale(1.1);
 }
 
 .feat-card-btn {
@@ -210,6 +237,15 @@ hr {
     width: 30%;
     font-weight: 600;
     font-size: 18px;
+    transition: all .4s ease-in-out; 
+}
+
+.feat-card-btn:hover {
+    color: antiquewhite;
+    background-color: #13366e;
+    cursor: pointer;
+    border: antiquewhite solid 2px;
+    transform: scale(1.2);
 }
 
 .card {
@@ -477,7 +513,7 @@ footer {
 }
 
 .btn-group > button {
-    font-size: 20px;
+    font-size: 26px;
     margin: 30px 0px;
 }
 
@@ -520,7 +556,7 @@ footer {
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    min-height: 100%;
+    min-height: 620px;
     background-color: #13366e;
 }
 
@@ -558,6 +594,7 @@ footer {
 .food-img-cap > img {
     width: 50%;
     border-radius: 5px;
+    height: 225px;
 }
 
 .food-text {
@@ -633,8 +670,9 @@ footer {
 }
 
 .contact-h2 {
-    width: 40%;
-    margin-left: 30%;
+    width: 100%;
+    color: #13366e;
+    text-align: center;
 }
 
 .form-container, .product-container {
@@ -692,10 +730,14 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     width: 30%;
+    transition: all .2s ease-in-out; 
 }
   
 .form-submit:hover {
-    background-color: #0266C8;
+    background-color: antiquewhite;
+    border: #13366e 2px solid;
+    color: #13366e;
+    transform: scale(1.2); 
 }
 
 .product-text {
@@ -712,6 +754,15 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     width: 60%;
+    transition: all .2s ease-in-out; 
+}
+
+.add-cart-btn:hover {
+    color: #13366e;
+    background-color: antiquewhite;
+    border: solid 2px #13366e;
+    cursor: pointer;
+    transform: scale(1.2); 
 }
 
 .map-container {
@@ -779,6 +830,25 @@ footer {
     text-align: center;
 }
 
+.remove-from-cart {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 50%;
+    margin-right: 25px;
+    align-self: center;
+    font-size: 24px;
+    transition: all .2s ease-in-out; 
+}
+
+.remove-from-cart:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: red;
+    transform: scale(1.2);
+}
+
 .cart-price {
     width: 20%;
     height: 100%;
@@ -820,12 +890,17 @@ footer {
 
 /* Media Queries */
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 475px or less, set the background color to olive */
 @media screen and (max-width: 475px) {
     
     .hero-image {
         width: 80%;
     }
+
+    .h1-hero {
+        margin-top: 30%;
+    }
+
     .why-2 {
         flex-direction: column;
         margin: 15px;
