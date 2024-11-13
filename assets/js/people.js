@@ -106,3 +106,24 @@
         }
     });
 })();
+
+
+// nav-switch
+let people1 = document.querySelector('.people-hero');
+let people2 = document.querySelector('.people-hero-2');
+const button = document.getElementById('nav-switch');
+
+// First, set initial state
+people1.style.display = 'flex';  // or 'block' depending on your layout
+people2.style.display = 'none';
+
+button.addEventListener('click', function() {
+    if(people1.style.display === 'flex'){
+        people1.style.display = 'none';
+        people2.style.display = 'block';
+    } else {
+        people2.style.display = 'none';
+        people1.style.display = 'flex';  // Changed to 'flex' to match condition
+    }
+});
+

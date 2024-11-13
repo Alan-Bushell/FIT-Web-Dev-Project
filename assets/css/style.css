@@ -648,11 +648,35 @@ footer {
 .people-hero {
     width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
     min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
+    background-image: url('https://cdn.shopify.com/s/files/1/0104/5112/4288/files/28827835_819764394878420_6327047569785462099_o.jpg?6192'); /* Placeholder */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: dashed 10px antiquewhite;
+}
+
+.people-hero-2 {
+    width: 60%; /* Set the width of the hero image in line with the parent container element. Keep note */
+    min-height: 500px; /* Set the height of the hero image in line with parent container element Keep note - same as above */
     background-image: url('https://documentaryheaven.com/wp-content/thumbnails/16466-770x433.jpg'); /* Placeholder */
     background-size: cover;
     background-position: center;
     border-radius: 8px;
     border: dashed 10px antiquewhite;
+    display: none;
+}
+
+.nav-switch {
+    background-color: #13366e;
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: all .2s ease-in-out; 
+}
+
+.nav-switch:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    border: solid antiquewhite 2px;
 }
 
 .person-text, .person-image {
@@ -986,7 +1010,6 @@ footer {
     min-height: 620px;
     background-color: antiquewhite;
 }
-
 
 /* Media Queries */
 
