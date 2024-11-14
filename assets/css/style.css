@@ -66,6 +66,14 @@ hr {
     font-size: 18px;
 }
 
+.logo {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    border: solid 2px antiquewhite;
+    padding: 5px;
+}
+
 /* Links container */
 .topnav .nav-links {
     display: flex;
@@ -1479,6 +1487,10 @@ footer {
 
     .image-1, .image-2 {
         height: unset;
+    }
+
+    .topnav .nav-links {
+        gap: 10px;
     }
 
     .card-deck {
