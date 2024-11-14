@@ -2,8 +2,12 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: antiquewhite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #13366e;
 }
 
 hr {
@@ -75,7 +79,7 @@ hr {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Active link */
@@ -319,6 +323,12 @@ hr {
     align-content: center;
 }
 
+.desc-about > h4 {
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
 .image-about {
     height: 80%;
     width: 40%;
@@ -382,6 +392,8 @@ footer {
 .h5-sitelinks {
     font-size: 20px;
     margin-bottom: 10px;
+    color: antiquewhite;
+    letter-spacing: 2px;
 }
 
 .links-row-1 {
@@ -894,6 +906,8 @@ footer {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    letter-spacing: 1px;
+    color: #13366e;
 }
   
 .form-input, .form-textarea {
@@ -1012,6 +1026,7 @@ footer {
     height: 100%;
     align-content: center;
     text-align: center;
+    color: #13366e;
 }
 
 .remove-from-cart {
@@ -1030,6 +1045,7 @@ footer {
     cursor: pointer;
     background-color: antiquewhite;
     color: red;
+    border: #13366e solid 2px;
     transform: scale(1.2);
 }
 
@@ -1038,6 +1054,9 @@ footer {
     height: 100%;
     align-content: center;
     text-align: center;
+    color: #13366e;
+    font-size: 20px;
+    font-weight: 600;
 }
 /*Once payment successful set to flex */
 .payment-success-container{
@@ -1046,6 +1065,11 @@ footer {
     display: none;
     flex-direction: column;
     align-items: center;
+}
+
+.txid {
+    color: #13366e;
+    font-size: 14px;
 }
 
 .download-btn {
@@ -1156,6 +1180,7 @@ footer {
 
     footer {
         height: 100%;
+        color: antiquewhite;
     }
 
     .foot-col-left, .foot-col-center, .foot-col-right {
