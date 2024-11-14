@@ -136,6 +136,18 @@ hr {
     background-position: center;
     border-radius: 8px;
     border: dashed 10px #13366e;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
 
 .visit-section {
@@ -434,6 +446,18 @@ footer {
     background-position: bottom; /* The image was too high at center */
     border-radius: 8px;
     border: dashed 10px antiquewhite;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
 
 .todo-container {
@@ -551,6 +575,18 @@ footer {
     border-radius: 8px;
     border: dashed 10px #13366e;
     margin: 30px 0px;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
 
 .btn-food, .btn-drink, .btn-notable, .btn-blue {
@@ -653,6 +689,18 @@ footer {
     background-position: center;
     border-radius: 8px;
     border: dashed 10px antiquewhite;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
 
 .people-hero-2 {
@@ -664,6 +712,18 @@ footer {
     border-radius: 8px;
     border: dashed 10px antiquewhite;
     display: none;
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.0);
+    }
 }
 
 .nav-switch {
