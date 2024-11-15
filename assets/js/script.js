@@ -105,6 +105,7 @@ function updateContent(selection) {
    });
 }
 
+// Checkout functionality
 document.addEventListener('DOMContentLoaded', function() {
     const cartIcon = document.getElementById('cartIcon');
     
@@ -175,6 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const paymentForm = document.querySelector('.payment-form');
     const checkoutContainer = document.querySelector('.checkout-container');
     const successContainer = document.querySelector('.payment-success-container');
+    const removeBtn = document.querySelector('.remove-from-cart');
 
     if (paymentForm) {
         paymentForm.addEventListener('submit', function(e) {
@@ -191,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Hide checkout container
                 checkoutContainer.style.display = 'none';
+                removeBtn.style.display = 'none';
                 
                 // Show success container
                 successContainer.style.display = 'flex';
