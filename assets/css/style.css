@@ -74,6 +74,11 @@ hr {
     padding: 5px;
 }
 
+.logo:hover {
+    color: #13366e;
+    background-color: antiquewhite;
+}    
+
 /* Links container */
 .topnav .nav-links {
     display: flex;
@@ -92,14 +97,14 @@ hr {
 
 /* Active link */
 .topnav .nav-links a.active {
-    background-color: #fff;
+    background-color: antiquewhite;
     color: #13366e;
     border-radius: 5px;
 }
 
 /* Hover effect */
 .topnav .nav-links a:hover {
-    background-color: #575757;
+    background-color: #b4b2b2;
     border-radius: 5px;
 }
 
